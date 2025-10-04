@@ -681,19 +681,18 @@
     <source src="alert.mp3" type="audio/mpeg">
   </audio>
 
-  <script>  
-const firebaseConfig = {
-  apiKey: "AIzaSyDMqGtcYv3zHHy6h14vgsU3a2ZqTT5vQ7Q",
-  authDomain: "ptms-2a847.firebaseapp.com",
-  databaseURL: "https://ptms-2a847-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "ptms-2a847",
-  storageBucket: "ptms-2a847.firebasestorage.app",
-  messagingSenderId: "217413018435",
-  appId: "1:217413018435:web:8f85bd5814ffd7a94385f6"
-};
+  <script>
+    // ---------------- Firebase Setup ----------------
+    const firebaseConfig = {
+      apiKey: "AIzaSyDMqGtcYv3zHHy6h14vgsU3a2ZqTT5vQ7Q",
+      authDomain: "ptms-2a847.firebaseapp.com",
+      databaseURL: "https://ptms-2a847-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "ptms-2a847",
+      storageBucket: "ptms-2a847.firebasestorage.app",
+      messagingSenderId: "217413018435",
+      appId: "1:217413018435:web:8f85bd5814ffd7a94385f6"
+    };
 
-
-    
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
